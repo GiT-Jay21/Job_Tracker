@@ -1,5 +1,5 @@
 
-# 🚀 Full-Stack Job Tracker (Rust + React + MongoDB)
+# Full-Stack Job Tracker (Rust + React + MongoDB)
 
 This is a full-stack web application that uses a modern, high-performance tech stack: a **Rust** backend API, a **React** frontend, and a **MongoDB** database.
 
@@ -9,7 +9,7 @@ The app allows a user to create, view, update, and delete job application entrie
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -21,7 +21,7 @@ The app allows a user to create, view, update, and delete job application entrie
 
 ---
 
-## ✨ Features
+## Features
 
 * **Full CRUD Functionality:**
     * **Create:** A modal form lets you add new jobs. It uses smart components like a `DatePicker` for the application date and searchable `Select` dropdowns for "Status" and "Place."
@@ -33,7 +33,7 @@ The app allows a user to create, view, update, and delete job application entrie
 
 ---
 
-## 🖥️ How to Run
+## How to Run
 
 This project is split into two parts: a `backend` and a `frontend`. You must run both at the same time in two separate terminals.
 
