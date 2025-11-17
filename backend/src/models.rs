@@ -1,7 +1,4 @@
 // Simple data model for a job application tracker.
-//
-// Keep comments short and informative. This file defines the main domain
-// shapes (Job and CreateJobDto) used throughout the backend.
 
 use serde::{Deserialize, Serialize};
 use chrono::NaiveDateTime;
