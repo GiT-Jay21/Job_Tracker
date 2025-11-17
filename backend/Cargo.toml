@@ -1,0 +1,19 @@
+[package]
+name = "job-tracker-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+mongodb = { version = "2.5", features = ["tokio-runtime"] }
+bson = "2.5"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+anyhow = "1.0"
+
+# optional small utilities
+futures = "0.3"
+chrono = { version = "0.4", features = ["serde"] }
