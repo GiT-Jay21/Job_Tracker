@@ -1,7 +1,4 @@
 // Simple Axum + MongoDB backend for a job-application tracker.
-//
-// Commenting style: short, imperative lines placed above logical steps.
-// Use these concise comments to explain "what" the code does, not "how".
 
 use axum::{routing::get, Router, extract::Extension, response::IntoResponse, http::StatusCode};
 use std::net::SocketAddr;
@@ -30,8 +27,6 @@ async fn main() -> anyhow::Result<()> {
     let client = db::create_client(&mongo_uri).await?;
     db::ping(&client).await?;
 
-    // Build the Axum router and attach the MongoDB client as an Extension.
-    // Attach the client so handlers can extract `Extension<Client>`.
     let app = Router::new()
         .route("/", get(root))
         .merge(routes::job_routes())
