@@ -41,7 +41,7 @@ This project is split into two parts: a `backend` and a `frontend`. You must run
 
 * [Rust & Cargo](https://www.rust-lang.org/tools/install)
 * [Node.js & npm](https://nodejs.org/en)
-* [MongoDB Community Server](httpsS://www.mongodb.com/try/download/community) (Make sure it's installed and running as a service in the background)
+* [MongoDB Community Server](httpsS://www.mongodb.com/try/download/community)
 
 ### Terminal 1: Run the Backend (Rust)
 
